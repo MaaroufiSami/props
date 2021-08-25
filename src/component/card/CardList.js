@@ -4,11 +4,11 @@ import {Card , Button} from"react-bootstrap"
 export const CardList = ({el:  { name, secondName, photo, desc }}) => {
   const FunctionClick = () => {
     const FunctionHandler = () => {
-        alert("Bonjour " + secondName )
+        alert("Bonjour " + name )
     }
     return (
         <div>
-             <Button  onClick={FunctionHandler}>  Cliquer </Button>
+             <Button  onClick={FunctionHandler}>  Me </Button>
         </div>
     )
 }
